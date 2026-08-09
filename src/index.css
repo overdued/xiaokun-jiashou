@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 38 46% 96%;
+    --foreground: 30 15% 20%;
+    --card: 44 60% 98%;
+    --card-foreground: 30 15% 20%;
+    --popover: 44 60% 98%;
+    --popover-foreground: 30 15% 20%;
+    --primary: 22 48% 42%;
+    --primary-foreground: 44 60% 97%;
+    --secondary: 36 30% 92%;
+    --secondary-foreground: 30 15% 22%;
+    --muted: 36 26% 91%;
+    --muted-foreground: 28 9% 44%;
+    --accent: 36 30% 92%;
+    --accent-foreground: 22 48% 35%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 37 28% 85%;
+    --input: 37 28% 85%;
+    --ring: 22 48% 42%;
+    --radius: 0.875rem;
+    --sidebar-background: 38 46% 96%;
+    --sidebar-foreground: 30 15% 20%;
+    --sidebar-primary: 22 48% 42%;
+    --sidebar-primary-foreground: 44 60% 97%;
+    --sidebar-accent: 36 30% 92%;
+    --sidebar-accent-foreground: 30 15% 22%;
+    --sidebar-border: 37 28% 85%;
+    --sidebar-ring: 22 48% 42%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "tnum";
+  }
+}
