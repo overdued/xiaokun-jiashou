@@ -51,17 +51,17 @@ export default function Hero() {
           <h1 className="font-serif text-[clamp(2.2rem,5.2vw,3.8rem)] font-bold leading-[1.25] tracking-tight text-[#3A322A]">
             知道爸妈今天
             <br />
-            起没起床、<span className="text-[#A05B38]">吃没吃药</span>
+            平不平安、<span className="text-[#A05B38]">吃没吃药</span>
           </h1>
           <p className="mt-5 flex flex-wrap items-center gap-x-2 gap-y-1 text-base font-medium text-[#7C7062]">
-            <span className="rounded-lg bg-[#F0E0D2]/70 px-2 py-0.5 text-[#7C4527]">雷达感知起居</span>
+            <span className="rounded-lg bg-[#F0E0D2]/70 px-2 py-0.5 text-[#7C4527]">雷达跌倒风险预警</span>
             <span aria-hidden="true">·</span>
             <span className="rounded-lg bg-[#F0E0D2]/70 px-2 py-0.5 text-[#7C4527]">药盒确认服药</span>
             <span aria-hidden="true">·</span>
             <span className="rounded-lg bg-[#F0E0D2]/70 px-2 py-0.5 text-[#7C4527]">话题引擎生成问候</span>
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-[#A09580]">
-            你不在身边，也知道爸妈好不好。
+          <p className="mt-4 text-base font-medium leading-relaxed text-[#3A322A]">
+            让每一次关心，都有话可说。
           </p>
           <p className="mt-5 max-w-lg text-lg leading-relaxed text-[#7C7062]">
             一台座钟形态的守护主机、两类无感配件、一个微信小程序，
