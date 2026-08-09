@@ -48,10 +48,10 @@ export default function Hero() {
           <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-[#E7DCC9] bg-[#FFFDF8] px-4 py-1.5 text-xs font-medium tracking-[0.18em] text-[#A05B38] shadow-paper">
             居家老人安全守护 × 家庭话题引擎
           </p>
-          <h1 className="font-serif text-[clamp(2.2rem,5.2vw,3.8rem)] font-bold leading-[1.25] tracking-tight text-[#3A322A]">
+          <h1 className="font-serif text-[clamp(2.2rem,5.2vw,3.8rem)] font-bold leading-[1.3] tracking-tight text-[#3A322A] text-balance">
             知道爸妈今天
             <br />
-            平不平安、<span className="text-[#A05B38]">吃没吃药</span>
+            平不平安、吃没吃药、<span className="text-[#A05B38]">有没话头</span>
           </h1>
           <p className="mt-5 flex flex-wrap items-center gap-x-2 gap-y-1 text-base font-medium text-[#7C7062]">
             <span className="rounded-lg bg-[#F0E0D2]/70 px-2 py-0.5 text-[#7C4527]">雷达跌倒风险预警</span>
@@ -61,7 +61,7 @@ export default function Hero() {
             <span className="rounded-lg bg-[#F0E0D2]/70 px-2 py-0.5 text-[#7C4527]">话题引擎生成问候</span>
           </p>
           <p className="mt-4 text-base font-medium leading-relaxed text-[#3A322A]">
-            让每一次关心，都有话可说。
+            每一次关心，都有一张话题卡。
           </p>
           <p className="mt-5 max-w-lg text-lg leading-relaxed text-[#7C7062]">
             一台座钟形态的守护主机、两类无感配件、一个微信小程序，
