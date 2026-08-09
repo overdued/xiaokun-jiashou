@@ -51,7 +51,7 @@ export default function Hero() {
           <h1 className="font-serif text-[clamp(2.2rem,5.2vw,3.8rem)] font-bold leading-[1.3] tracking-tight text-[#3A322A] text-balance">
             知道爸妈今天
             <br />
-            平不平安、吃没吃药、<span className="text-[#A05B38]">有没话头</span>
+            平不平安、吃没吃药、<span className="text-[#A05B38]">想聊什么</span>
           </h1>
           <p className="mt-5 flex flex-wrap items-center gap-x-2 gap-y-1 text-base font-medium text-[#7C7062]">
             <span className="rounded-lg bg-[#F0E0D2]/70 px-2 py-0.5 text-[#7C4527]">雷达跌倒风险预警</span>
